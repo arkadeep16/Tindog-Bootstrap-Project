@@ -1,0 +1,251 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+h2{
+
+}
+.main-header{
+  background-color: #ff4c68;
+}
+.my-nav a{
+  color: white;
+  font-family: ubuntu;
+  font-size: 40px;
+  font-weight: 700;
+}
+.my-nav a:hover{
+  text-decoration: none;
+  transform: scale(1.1);
+  color: white;
+}
+.nav-icons ul li a{
+  color: white !important;
+  font-family: Montserrat!important;
+  font-size: 20px!important;
+font-weight: 300;
+
+}
+.nav-icons ul li a:hover{
+
+    color: white;
+      transform: scale(1.1)!important;
+}
+.fa-google-play{
+  color: #ffffff;
+}
+
+.col-content h1{
+  font-size:55px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: white;
+
+}
+
+.col-img img{
+  background-color: #ff4c68;
+  width: 100%;
+  height: 100%;
+}
+.left-button{
+    font-family: Montserrat;
+    color:  white!important;
+}
+.left-button:hover{
+  border-color: #black!important;
+color: white !important;
+background-color: black !important;
+  transform: scale(1.1);
+}
+.right-button{
+    font-family: Montserrat;
+    color:  white!important;
+}
+.right-button:hover{
+  border-color: #white!important;
+color: black !important;
+background-color: white !important;
+  transform: scale(1.1);
+}
+.promise-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.fa-bullseye{
+  color:  #ff4c68;
+}
+.fa-check-circle{
+  color:  #ff4c68;
+}
+.fa-heartbeat{
+  color:  #ff4c68;
+}
+.promise-col h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+.promise-col p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #374045;
+}
+.carou-position{
+
+  text-align: center;
+}
+.previous-carousel{
+  background-color: #ff4c68;
+}
+.previous-carousel img{
+  border-radius: 100%;
+  width: 19%;
+  height: 270px;
+
+}
+.my-carousel{
+    background-color: #ff4c68;
+}
+.previous-carousel p{
+  font-size:30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: white;
+
+}
+.previous-carousel i{
+  font-family: 'Montserrat', sans-serif;
+}
+.next-carousel{
+  background-color: #ff4c68;
+}
+.next-carousel img{
+  border-radius: 100%;
+  width:19%;
+height: 270px;
+}
+.next-carousel p{
+  font-size:30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: white;
+}
+.next-carousel i{
+    font-family: 'Montserrat', sans-serif;
+}
+.carousel-logo{
+
+  display: inline-block!important;
+  display: flex!important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.carousel-logo img{
+  width: 20%;
+}
+.carousel-bottom{
+  background-color: #ff4c68;
+}
+.plan{
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.card-column{
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.style-heading {
+  background-color:  black!important;
+}
+.style-heading h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: white;
+}
+.style-text{
+display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.style-text h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: #ff4c68;
+}
+.style-text p{
+  font-size:16px;
+  font-family: 'Montserrat', sans-serif;
+}
+.card-button{
+  font-family: Montserrat;
+  color:  white!important;
+background-color: #ff4c68!important;
+}
+.card-button:hover{
+  border-color: black!important;
+color: white !important;
+background-color: black !important;
+  transform: scale(1.1);
+}
+.plan h3{
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+}
+.plan p{
+  font-size:16px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+.my-jumbo{
+  background-color:  #ff4c68!important;
+ border-radius:0% 100% 0% 100% / 20% 80% 20% 80%    !important ;
+}
+.jumbo-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.jumbo-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copy-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+@media max-width:375px{
+
+.col-content{
+  width: 47%;
+}
+.col-img{
+  width: 47%;
+}
+  }
+.icon-setting{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
